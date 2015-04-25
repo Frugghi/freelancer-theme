@@ -36,8 +36,8 @@ h6 {
     font-weight: 700;
 }
 
-hr.star-light,
-hr.star-primary {
+hr.light,
+hr.primary {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -46,9 +46,8 @@ hr.star-primary {
     text-align: center;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
+hr.light:before,
+hr.primary:before {
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -57,20 +56,20 @@ hr.star-primary:after {
     font-size: 2em;
 }
 
-hr.star-light {
+hr.light {
     border-color: #fff;
 }
 
-hr.star-light:after {
+hr.light:before {
     color: #fff;
     background-color: #{{ site.color.primary }};
 }
 
-hr.star-primary {
+hr.primary {
     border-color: #{{ site.color.secondary }};
 }
 
-hr.star-primary:after {
+hr.primary:before {
     color: #{{ site.color.secondary }};
     background-color: #fff;
 }
