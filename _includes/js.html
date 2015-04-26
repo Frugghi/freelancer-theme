@@ -1,23 +1,23 @@
- <!-- jQuery Version 1.11.0 -->
-    {% javascript jquery %}
+ <!-- jQuery -->
+{% javascript jquery %}
 
-    <!-- Bootstrap Core JavaScript -->
-    {% javascript bootstrap.min %}
+<!-- Bootstrap Core JavaScript -->
+{% javascript bootstrap.min %}
 
-    <!-- Plugin JavaScript -->
-    {% javascript jquery.easing.min %}
-    {% javascript classie %}
-    {% javascript cbpAnimatedHeader %}
+<!-- Plugin JavaScript -->
+{% javascript jquery.easing.min %}
+{% javascript classie %}
+{% javascript cbpAnimatedHeader %}
 
-    <!-- Contact Form JavaScript -->
-    {% javascript jqBootstrapValidation %}
-    {% for part in site.content %}
-        {% if part.html == "contact_static" %}
-            {% javascript contact_me_static %}
-        {% elsif part.html == "contact" %}
-            {% javascript contact_me %}
-        {% endif %}
-    {% endfor %}
+<!-- Contact Form JavaScript -->
+{% javascript jqBootstrapValidation %}
+{% for part in site.content %}
+    {% if part.html == "contact_static" %}
+        {% javascript contact_me_static %}
+    {% elsif part.html == "contact" %}
+        {% javascript contact_me %}
+    {% endif %}
+{% endfor %}
 
-    <!-- Custom Theme JavaScript -->
-    {% javascript freelancer %}
+<!-- Custom Theme JavaScript -->
+{% javascript freelancer %}
