@@ -63,5 +63,7 @@ assets:
     - _assets/stylesheets
     - _assets/images  
 
+exclude: [README.md, LICENCE, screenshot.png]
+
 markdown: kramdown
 permalink: pretty
