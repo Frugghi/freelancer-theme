@@ -1,6 +1,5 @@
 ---
 layout: project
-modal-id: 1
 title: "Project 1"
 img: cabin.png
 alt: image-alt

@@ -1,6 +1,5 @@
 ---
 layout: project
-modal-id: 5
 title: "Project 5"
 img: safe.png
 alt: image-alt

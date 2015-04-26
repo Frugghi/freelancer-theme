@@ -1,6 +1,5 @@
 ---
 layout: project
-modal-id: 2
 title: "Project 2"
 img: cake.png
 alt: image-alt

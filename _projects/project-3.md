@@ -1,6 +1,5 @@
 ---
 layout: project
-modal-id: 3
 title: "Project 3"
 img: circus.png
 alt: image-alt

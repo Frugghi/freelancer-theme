@@ -1,6 +1,5 @@
 ---
 layout: project
-modal-id: 6
 title: "Project 6"
 img: submarine.png
 alt: image-alt

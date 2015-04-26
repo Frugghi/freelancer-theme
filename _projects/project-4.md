@@ -1,6 +1,5 @@
 ---
 layout: project
-modal-id: 4
 title: "Project 4"
 img: game.png
 alt: image-alt
