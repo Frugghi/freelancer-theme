@@ -1,0 +1,18 @@
+
+@import "_config";
+
+$brand-primary: $site-color-primary;
+$brand-success: $site-color-primary;
+$navbar-default-bg: $site-color-secondary;
+$navbar-default-color: #fff;
+$navbar-default-link-color: #fff;
+$navbar-default-link-hover-color: $site-color-primary;
+$navbar-default-link-active-color: $site-color-primary;
+$navbar-default-link-disabled-color: $site-color-primary;
+$navbar-default-brand-hover-color: $site-color-primary;
+$text-color: $site-color-secondary;
+$btn-default-color: #fff;
+$btn-default-bg: #95a5a6;
+$btn-default-border: #95a5a6;
+
+@import "_sass/_bootstrap";
