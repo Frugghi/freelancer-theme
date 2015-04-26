@@ -1,0 +1,11 @@
+---
+layout: section
+---
+<div class="row">
+	{% for column in page.columns %}
+		<div class="{% if column.colsize %}{{ column.colsize }}{% else %}{{ page.colsize }}{% endif %} {{ column.offset }}">
+        	<p>{{ column.text }}</p>
+    	</div>
+	{% endfor %}
+    {{ content }}
+</div>

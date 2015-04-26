@@ -36,6 +36,7 @@ defaults:
       type: "homepage"
     values:
       theme: "primary"
+      colsize: "col-lg-4"
   -
     scope:
       path: ""
