@@ -1,8 +1,5 @@
 
-
-$site-color-primary: #FF0000;
-$site-color-secondary: #2C3E50;
-$site-color-secondary-dark: #233140;
+@import "_config";
 
 $brand-primary: $site-color-primary;
 $brand-success: $site-color-primary;

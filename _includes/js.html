@@ -1,23 +1,23 @@
  <!-- jQuery Version 1.11.0 -->
-    <script src="{{ "/js/jquery-1.11.0.js" }}"></script>
+    {% javascript jquery %}
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="{{ "/js/bootstrap.min.js" }}"></script>
+    {% javascript bootstrap.min %}
 
     <!-- Plugin JavaScript -->
-    <script src="{{ "/js/jquery.easing.min.js" }}"></script>
-    <script src="{{ "/js/classie.js" }}"></script>
-    <script src="{{ "/js/cbpAnimatedHeader.js" }}"></script>
+    {% javascript jquery.easing.min %}
+    {% javascript classie %}
+    {% javascript cbpAnimatedHeader %}
 
     <!-- Contact Form JavaScript -->
-    <script src="{{ "/js/jqBootstrapValidation.js" }}"></script>
+    {% javascript jqBootstrapValidation %}
     {% for part in site.content %}
         {% if part.html == "contact_static" %}
-            <script src="{{ "/js/contact_me_static.js" }}"></script>
+            {% javascript contact_me_static %}
         {% elsif part.html == "contact" %}
-            <script src="{{ "/js/contact_me.js" }}"></script>
+            {% javascript contact_me %}
         {% endif %}
     {% endfor %}
 
     <!-- Custom Theme JavaScript -->
-    <script src="{{ "/js/freelancer.js" }}"></script>
+    {% javascript freelancer %}
