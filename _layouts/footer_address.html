@@ -1,0 +1,9 @@
+---
+layout: footer_col
+---
+<h3>{{ page.title }}</h3>
+<p>
+	{% for adress in site.address %}
+    	{{ adress.line }} <br>
+	{% endfor %}
+</p>

@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">{% if site.nav-title %}{{ site.navtitle }}{% else %}{{ site.title }}{% endif %}</a>
+                <a class="navbar-brand" href="#page-top">{% if site.nav_title %}{{ site.nav_title }}{% else %}{{ site.title }}{% endif %}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -18,9 +18,9 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    {% for part in site.content %}
+                    {% for section in site.homepage %}
                     <li class="page-scroll">
-                        <a href="#{{ part.id }}">{{ part.navtitle }}</a>
+                        <a href="#{{ section.section-id }}">{% if section.nav_title %}{{ section.nav_title }}{% else %}{{ section.title }}{% endif %}</a>
                     </li>
                     {% endfor %}
                 </ul>

@@ -4,12 +4,8 @@
     <body id="page-top" class="index">
     {% include nav.html %}
     {% include header.html %}
-    {% for part in site.content %}
-        {% if part.icon %}
-            {% include {{part.html}}.html icon=part.icon %}
-        {% else %}
-            {% include {{part.html}}.html icon="star" %}
-        {% endif %}
+    {% for section in site.homepage %}
+        {{ section.output }}
     {% endfor %}
 
     {% include footer.html %}

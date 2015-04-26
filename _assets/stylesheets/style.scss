@@ -191,9 +191,14 @@ section h2 {
     font-size: 3em;
 }
 
-section.success {
+section.light {
     color: #fff;
     background: $site-color-primary;
+}
+
+section.primary {
+    color: $site-color-secondary;
+    background: #fff;
 }
 
 @media(max-width:767px) {
