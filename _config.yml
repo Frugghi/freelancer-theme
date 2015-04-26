@@ -58,7 +58,8 @@ assets:
   sources:
     - _assets/fonts
     - _assets/javascripts
-    - _assets/stylesheets    
+    - _assets/stylesheets
+    - _assets/images  
 
 markdown: kramdown
 permalink: pretty

@@ -10,7 +10,7 @@ layout: section
                         <i class="fa fa-search-plus fa-3x"></i>
                     </div>
                 </div>
-                <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                {{ post.img | prepend:'"portfolio/' | append:'" class="img-responsive" alt="' | append:post.alt | append:'"' | image }}
             </a>
         </div>
     {% endfor %}
