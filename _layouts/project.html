@@ -1,7 +1,7 @@
 <h2>{{ page.title }}</h2>
 <hr class="primary fa-{{ page.icon }}">
 {{ page.img | prepend:'"portfolio/' | append:'" class="img-responsive img-centered" alt="' | append:page.alt | append:'"' | image }}
-<p>{{ content }}</p>
+<div class="project-content">{{ content }}</div>
 <ul class="list-inline item-details">
 	 {% for line in page.footer %}
 	 <li>{{ line.title }}
